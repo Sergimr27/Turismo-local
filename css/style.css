@@ -1,0 +1,112 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url("../img/CITY-BCN-1.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-nav {
+    width: 15%;
+    float: left;
+    position: fixed;
+}
+
+.column-75 {
+    width: 70%;
+    float: left;
+    margin-left: 25%;
+}
+
+.column-news {
+    width: 15%;
+    float: left;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#img-1 {
+    height: 50vh;
+    background-image: url("../img/w-k-F1Om5ZlXN5g-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-2 {
+    height: 50vh;
+    background-image: url("../img/bruno-barreto-oe9hCDWA2Fw-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3 {
+    height: 50vh;
+    background-image: url("../img/manuel-torres-garcia-FZ6FEH2mKMU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-4 {
+    height: 50vh;
+    background-image: url("../img/raimond-klavins-Uy47SfoghJ0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-5 {
+    height: 50vh;
+    background-image: url("../img/sumit-lulla-8_WfHGUKOgo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* clases auxiliares */
+
+.padding-s {
+    padding: 3%;
+}

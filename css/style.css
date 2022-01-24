@@ -1,18 +1,18 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     background-image: url("../img/CITY-BCN-1.jpeg");
-    height: 100vh;
+    height: 55vh;
     background-size: cover;
     background-position: center;
 }
 
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
     background-color: burlywood;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .column-2 {
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
@@ -37,27 +37,45 @@ body {
     float: left;
 }
 
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
 .column-nav {
     width: 15%;
     float: left;
     position: fixed;
+    background-color: violet;
+    border: solid;
 }
 
 .column-75 {
-    width: 70%;
+    width: 55%;
     float: left;
-    margin-left: 25%;
+    margin-left: 15%;
+    text-align: center;
 }
 
 .column-news {
-    width: 15%;
+    width: 25%;
     float: left;
+    padding: 0.5vw;
+    border: solid;
 }
 
 .flex {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.back-yellow {
+    background-color: yellow;
 }
 
 a {
@@ -70,6 +88,8 @@ a {
     background-image: url("../img/w-k-F1Om5ZlXN5g-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-2 {
@@ -77,6 +97,8 @@ a {
     background-image: url("../img/bruno-barreto-oe9hCDWA2Fw-unsplash\ \(1\).jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-3 {
@@ -84,6 +106,8 @@ a {
     background-image: url("../img/manuel-torres-garcia-FZ6FEH2mKMU-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-4 {
@@ -91,6 +115,8 @@ a {
     background-image: url("../img/raimond-klavins-Uy47SfoghJ0-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-5 {
@@ -100,13 +126,89 @@ a {
     background-position: center;
 }
 
+#img-6 {
+    height: 50vh;
+    background-image: url("../img/88.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-7 {
+    height: 50vh;
+    background-image: url("../img/61edd31355ca5.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-8 {
+    height: 50vh;
+    background-image: url("../img/bafb97e0-7d78-4c21-b2a3-7d0a71682d83_alta-libre-aspect-ratio_default_0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-9 {
+    height: 50vh;
+    background-image: url("../img/61edb18979cd9.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
 h1 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: rgba(245, 245, 245, 0.536);
 }
 
 
 /* clases auxiliares */
 
 .padding-s {
-    padding: 3%;
+    padding: 1%;
+}
+
+.padding-m {
+    padding: 6%;
+}
+
+@media only screen and (max-width: 700px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .column-75,
+    .column-nav {
+        width: 100%;
+    }
+    .column-75 {
+        margin-left: 0;
+    }
+    .column-nav {
+        position: relative;
+    }
 }

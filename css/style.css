@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+}
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -12,7 +20,7 @@ header {
 }
 
 body {
-    margin: 0%;
+    margin: 0px;
     background-color: burlywood;
 }
 
@@ -58,7 +66,7 @@ body {
 }
 
 .column-news {
-    width: 25%;
+    width: 30%;
     float: left;
     padding: 0.5vw;
     border: solid;
@@ -124,6 +132,8 @@ a {
     background-image: url("../img/sumit-lulla-8_WfHGUKOgo-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-6 {
@@ -131,6 +141,8 @@ a {
     background-image: url("../img/88.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-7 {
@@ -138,6 +150,8 @@ a {
     background-image: url("../img/61edd31355ca5.jpeg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-8 {
@@ -145,6 +159,8 @@ a {
     background-image: url("../img/bafb97e0-7d78-4c21-b2a3-7d0a71682d83_alta-libre-aspect-ratio_default_0.jpg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
 }
 
 #img-9 {
@@ -152,6 +168,117 @@ a {
     background-image: url("../img/61edb18979cd9.jpeg");
     background-size: cover;
     background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-10 {
+    height: 50vh;
+    background-image: url("../img/8ba93299-f207-4557-a0ea-a691408075a1_16-9-discover-aspect-ratio_default_0.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-11 {
+    height: 60vh;
+    background-image: url("../img/jorge-fernandez-salas-f8scKO9jjas-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-12 {
+    height: 60vh;
+    background-image: url("../img/jorge-fernandez-salas-Lp7JhwnxZ50-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-13 {
+    height: 60vh;
+    background-image: url("../img/Plaza-Catalunya-en-Barcelona-1000x590.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-14 {
+    height: 60vh;
+    background-image: url("../img/shutterstock_194471207-1-1024x597.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-15 {
+    height: 60vh;
+    background-image: url("../img/pizzas-napolitanas-horno-piedra-barcelona-1235x694.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-17 {
+    height: 60vh;
+    background-image: url("../img/lobster-rice.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-16 {
+    height: 600px;
+    width: 600px;
+    background-image: url("../img/Captura\ de\ pantalla\ 2022-01-24\ 173540.png");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-18 {
+    height: 600px;
+    width: 600px;
+    background-image: url("../img/Captura\ de\ pantalla\ 2022-01-24\ 164947.png");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-19 {
+    height: 60vh;
+    background-image: url("../img/P1270127.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#img-20 {
+    height: 600px;
+    width: 600px;
+    background-image: url("../img/Captura\ de\ pantalla\ 2022-01-24\ 174331.png");
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+iframe {
+    height: 60vh;
+    width: 100vh;
+    border: solid red;
+    border-radius: 5%;
 }
 
 header h1 {
@@ -164,6 +291,11 @@ h1 {
 
 h3 {
     text-align: center;
+    background-color: chartreuse;
+    border: solid;
+    border-radius: 5px;
+    padding: 0%;
+    padding-right: 0%;
 }
 
 h5 {
@@ -176,8 +308,17 @@ h2 {
 }
 
 footer {
+    width: 100%;
+    text-align: left;
+    float: left;
+    font-size: 1.5vw;
+    color: white;
     background-color: black;
-    color: rgba(245, 245, 245, 0.536);
+}
+
+#prefooter {
+    background-color: darkgray;
+    color: black;
 }
 
 
@@ -197,12 +338,21 @@ footer {
     .column-3 {
         width: 100%;
     }
+    .column-1 {
+        width: 100%;
+    }
+    .column-2 {
+        width: 100%;
+    }
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
-        width: 50%;
+        width: 0%;
     }
     .column-75,
     .column-nav {
+        width: 100%;
+    }
+    .column-news {
         width: 100%;
     }
     .column-75 {
@@ -210,5 +360,13 @@ footer {
     }
     .column-nav {
         position: relative;
+    }
+    iframe {
+        width: 100%;
+    }
+    #img-16,
+    #img-18,
+    #img-20 {
+        width: 100%;
     }
 }
